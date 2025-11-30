@@ -22,7 +22,7 @@
 + Addressing: No inherent addressing; point-to-point only
 + Best for: Simple, one-to-one communication, long-distance communication, and debugging
 
-** 🎯I2C (Inter-Integrated Circuit) protocol**
+**🎯I2C (Inter-Integrated Circuit) protocol**
 + Communication type: Synchronous, serial, half-duplex
 + Wiring: Two wires (SDA and SCL)
 + Complexity: Moderate
