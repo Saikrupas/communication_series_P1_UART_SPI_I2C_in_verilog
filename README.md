@@ -32,20 +32,23 @@ Best for: Short-distance communication with multiple sensors, microcontrollers, 
 
 ## 🧱 Project Structure
 
-# Project Title
+# communication_protocols_SPI_UART_I2C
 
-    ## Project Structure
+```txt
+communication_protocol_SPI_UART_I2C/
+├── SPI_design_codes/
+│   ├── SPI_simple_designs/                   # Header files (*.v)
+│   |    ├── SPI_master_slave_simple_design   # simple SPI_master(controller) and slave using mode 0 operation
+│   │    |    └── simple_SPI_design.v         # TOP-level SoC
+│   ├── module/              # Design & simulation modules
+│   │   ├── vsdbabysoc.v     # Top-level SoC
+│   │   ├── rvmyth.v         # RISC-V core (from TLV)
+│   │   ├── rvmyth.tlv       # TL-Verilog source
+│   │   ├── avsdpll.v        # PLL module
+│   │   ├── avsddac.v        # DAC module
+│   │   └── testbench.v      # Simulation testbench
+├── output/                  # Simulation outputs
+└── compiled_tlv/            # Optional intermediate files
+````
 
-    ### `src/` - Contains all source code
-    - `main.py` - Main application entry point
-    - `utils/` - Utility functions
-        - `helper_functions.py` - Common helper functions
-    - `data/` - Project data
-        - `raw_data.csv` - Raw input data
-
-    ### `docs/` - Project documentation
-    - `installation.md` - Instructions for setting up the project
-    - `usage.md` - Examples and guidelines for using the project
-
-    ### `tests/` - Unit and integration tests
-    - `test_main.py` - Tests for `main.py`
+---
