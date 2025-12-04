@@ -1,7 +1,6 @@
 # 🖥️ Communication protocols-SPI,UART,I2c
 <div align="center">
   
-[![Namaste-FPGA](https://img.shields.io/badge/Namaste--FPGA-program-brightgreen?style=for-the-badge&logoColor=black)](https://namaste-fpga.com/)
 [![EDA-Playground](https://img.shields.io/badge/EDA--Playground-coding-blue?style=for-the-badge&logoColor=black)](https://edaplayground.com/)
 
 </div>
