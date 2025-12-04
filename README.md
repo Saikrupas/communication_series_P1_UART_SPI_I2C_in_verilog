@@ -47,7 +47,8 @@ communication_protocol_SPI_UART_I2C/
 ├── SPI_design_codes/
 │   ├── SPI_simple_designs/                   # Header files (*.v)
 │   |    ├── SPI_master_slave_simple_design   # simple SPI_master(controller) and slave using mode 0 operation
-│   │    |    └── simple_SPI_design.v         # TOP-level SoC
+│   │    |   ├── simple_SPI_master_design.v
+│   │    |   └──  simple_SPI_slave_master_integration_top.v
 │   ├── module/              # Design & simulation modules
 │   │   ├── vsdbabysoc.v     # Top-level SoC
 │   │   ├── rvmyth.v         # RISC-V core (from TLV)
