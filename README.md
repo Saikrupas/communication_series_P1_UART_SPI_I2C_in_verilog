@@ -6,7 +6,7 @@
 
 </div>
 
-## 🔌  UART,SPI,I2C serial protocols :-
+### 🔌  UART,SPI,I2C serial protocols :-
 + <u>UART, SPI, and I2C are all serial communication protocols</u> for embedded systems, but they differ in speed, complexity, and wiring.
 + UART is a simple, asynchronous, full-duplex protocol for point-to-point communication over two wires, often used for longer distances.
 + SPI is a faster, synchronous, full-duplex protocol that uses four wires (or more for multiple slaves) in a single-master, multi-slave setup.
