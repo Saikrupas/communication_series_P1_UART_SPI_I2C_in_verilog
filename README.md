@@ -6,13 +6,7 @@
 
 </div>
 
-## Table of Contents
-- [Part 1: Introduction to SoC & Pre-synthesis and Post-synthesis verification flow for a minimal RISC-V System-on-Chip (SoC)](#part-2-Introduction-to-SoC-&-Pre-synthesis-&-Post-synthesis-verification-for-RISC-V)                                                      
-- [Part 2:Introduction to STA & Timing Graphs using openSTA](#part-2-Introduction-to-STA-&-Timing-Graphs-using-openSTA)
-- [Part 3: Theory & Implementation of BabySoC Physical Design](#part-3-Theory-&-Implementation-of-BabySoC-Physical-Design)
-- [Part 4: SPEF & Post-Layout STA & Timing Graphs Across PVT Corners for Routed VSDBabySoC](#part-4-SPEF-&-Post-Layout-STA-&-Timing-Graphs-Across-PVT-Corners-for-Routed-VSDBabySoC)
-
-## 🔌  UART,SPI,I2C serial protocols 
+## 🔌  UART,SPI,I2C serial protocols :-
 + <u>UART, SPI, and I2C are all serial communication protocols</u> for embedded systems, but they differ in speed, complexity, and wiring.
 + UART is a simple, asynchronous, full-duplex protocol for point-to-point communication over two wires, often used for longer distances.
 + SPI is a faster, synchronous, full-duplex protocol that uses four wires (or more for multiple slaves) in a single-master, multi-slave setup.
