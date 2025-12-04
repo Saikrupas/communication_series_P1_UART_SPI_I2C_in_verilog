@@ -29,3 +29,23 @@
 + Speed: Moderate (up to 3.4 Mbps or higher in some modes)
 Addressing: 7 or 10-bit addressing scheme to support multiple devices on the same bus
 Best for: Short-distance communication with multiple sensors, microcontrollers, and other peripherals on a single bus   
+
+## 🧱 Project Structure
+
+# Project Title
+
+    ## Project Structure
+
+    ### `src/` - Contains all source code
+    - `main.py` - Main application entry point
+    - `utils/` - Utility functions
+        - `helper_functions.py` - Common helper functions
+    - `data/` - Project data
+        - `raw_data.csv` - Raw input data
+
+    ### `docs/` - Project documentation
+    - `installation.md` - Instructions for setting up the project
+    - `usage.md` - Examples and guidelines for using the project
+
+    ### `tests/` - Unit and integration tests
+    - `test_main.py` - Tests for `main.py`
