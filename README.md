@@ -10,6 +10,7 @@
 + UART is a simple, asynchronous, full-duplex protocol for point-to-point communication over two wires, often used for longer distances.
 + SPI is a faster, synchronous, full-duplex protocol that uses four wires (or more for multiple slaves) in a single-master, multi-slave setup.
 + I2C is a synchronous, half-duplex protocol using two wires for multiple masters and slaves on a short-distance bus, with speeds typically slower than SPI but faster than UART.
++  Implementation of UART 16550A, PMOD DA4(Analog Devices AD5628), MCP3202 (designing SPI controller).
 
 ### 🔧 Features
 
