@@ -1,3 +1,17 @@
+# 🖥️ Communication protocols-SPI,UART,I2c
+<div align="center">
+  
+[![Namaste-FPGA](https://img.shields.io/badge/Namaste--FPGA-program-brightgreen?style=for-the-badge&logoColor=black)](https://namaste-fpga.com/)
+[![EDA-Playground](https://img.shields.io/badge/EDA--Playground-coding-blue?style=for-the-badge&logoColor=black)](https://edaplayground.com/)
+
+</div>
+
+## Table of Contents
+- [Part 1: Introduction to SoC & Pre-synthesis and Post-synthesis verification flow for a minimal RISC-V System-on-Chip (SoC)](#part-2-Introduction-to-SoC-&-Pre-synthesis-&-Post-synthesis-verification-for-RISC-V)                                                      
+- [Part 2:Introduction to STA & Timing Graphs using openSTA](#part-2-Introduction-to-STA-&-Timing-Graphs-using-openSTA)
+- [Part 3: Theory & Implementation of BabySoC Physical Design](#part-3-Theory-&-Implementation-of-BabySoC-Physical-Design)
+- [Part 4: SPEF & Post-Layout STA & Timing Graphs Across PVT Corners for Routed VSDBabySoC](#part-4-SPEF-&-Post-Layout-STA-&-Timing-Graphs-Across-PVT-Corners-for-Routed-VSDBabySoC)
+
 ## 🔌  UART,SPI,I2C serial protocols 
 + <u>UART, SPI, and I2C are all serial communication protocols</u> for embedded systems, but they differ in speed, complexity, and wiring.
 + UART is a simple, asynchronous, full-duplex protocol for point-to-point communication over two wires, often used for longer distances.
